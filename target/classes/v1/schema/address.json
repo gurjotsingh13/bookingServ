@@ -1,0 +1,29 @@
+{
+  "title": "address",
+  "description": "address",
+  "type": "object",
+  "properties": {
+    "line1": {
+      "description": "line1",
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 255
+    },
+    "city": {
+      "description": "city",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "state": {
+      "description": "state",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "zip_code": {
+      "description": "zip code",
+      "type": "integer"
+    }
+  }
+}
